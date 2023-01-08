@@ -1,0 +1,12 @@
+.home__submit-btn{
+    background-color: var(--btn-red);
+    padding: 7px;
+    border: none;
+    border-top-right-radius: .4rem;
+    border-bottom-right-radius: .4rem;
+    color: beige;
+}
+
+.home__input{
+    padding: 5px;
+}

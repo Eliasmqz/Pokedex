@@ -1,0 +1,14 @@
+.pokemonCard__container{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+@media (min-width:550px) {
+    .pokemonCard__container{
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

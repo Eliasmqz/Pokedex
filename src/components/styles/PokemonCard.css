@@ -1,0 +1,117 @@
+.pokemonCard{
+    background-color: white;
+    text-align: center;
+    border-radius: 1rem;
+    max-width: 400px;
+    cursor: pointer;
+}
+
+.pokemonCard__types{
+    text-transform: capitalize;
+}
+
+.pokemonCard__stats{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+hr{
+    margin-top: 15px;
+}
+
+.pokemonCard__stat{
+    width: 45%;
+    margin-bottom: 10px;
+}
+
+.pokemonCard__stat-name{
+    color: rgb(161, 161, 161);
+}
+
+
+.bg__grass{
+    border: solid 10px rgb(39, 167, 39);
+    background: linear-gradient(180deg, rgb(39, 167, 39), rgb(212, 211, 208));
+
+}
+
+.bg__fire{
+    border: solid 10px rgb(255, 0, 0);
+    background: linear-gradient(180deg, rgb(255, 0, 0), rgb(212, 211, 208));
+}
+
+.bg__water{
+    border: solid 10px rgb(0, 7, 100);
+    background: linear-gradient(180deg, rgb(0, 7, 100), rgb(212, 211, 208));
+}
+
+.bg__bug{
+    border: solid 10px rgb(0, 65, 0);
+    background: linear-gradient(180deg, rgb(0, 65, 0), rgb(212, 211, 208));
+}
+
+.bg__normal{
+    border: solid 10px rgb(129, 129, 129);
+    background: linear-gradient(180deg, rgb(129, 129, 129), rgb(212, 211, 208));
+}
+
+.bg__poison{
+    border: solid 10px rgb(89, 0, 131);
+    background: linear-gradient(180deg, rgb(89, 0, 131), rgb(212, 211, 208));
+}
+
+.bg__electric{
+    border: solid 10px rgb(255, 208, 0);
+    background: linear-gradient(180deg, rgb(255, 208, 0), rgb(212, 211, 208));
+}
+
+.bg__ground{
+    border: solid 10px rgb(100, 68, 0);
+    background: linear-gradient(180deg, rgb(100, 68, 0), rgb(212, 211, 208));
+}
+
+.bg__fairy{
+    border: solid 10px rgb(255, 123, 200);
+    background: linear-gradient(180deg, rgb(255, 123, 200), rgb(212, 211, 208));
+}
+
+.bg__fighting{
+    border: solid 10px rgb(32, 12, 0);
+    background: linear-gradient(180deg, rgb(32, 12, 0), rgb(212, 211, 208));
+}
+
+.bg__psychic{
+    border: solid 10px rgb(55, 0, 100); 
+    background: linear-gradient(180deg, rgb(55, 0, 100), rgb(212, 211, 208));
+}
+
+.bg__rock{
+    border: solid 10px rgb(19, 19, 19);
+    background: linear-gradient(180deg, rgb(19, 19, 19), rgb(212, 211, 208));
+}
+
+.bg__ghost{
+    border: solid 10px rgb(165, 121, 0);
+    background: linear-gradient(180deg, rgb(165, 121, 0), rgb(212, 211, 208));
+}
+
+.bg__ice{
+    border: solid 10px rgb(129, 255, 234);
+    background: linear-gradient(180deg, rgb(129, 255, 234), rgb(212, 211, 208));
+}
+
+.bg__dragon{
+    border: solid 10px rgb(240, 81, 18);
+    background: linear-gradient(180deg, rgb(240, 81, 18), rgb(212, 211, 208));
+}
+
+@media (min-width:550px) {
+    .pokemonCard{
+        min-width: 230px;
+        max-width: 330px;
+    }
+
+}
